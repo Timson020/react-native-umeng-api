@@ -1,20 +1,24 @@
 {
-  "name": "react-native-umeng",
+  "name": "react-native-umeng-api",
   "version": "1.0.0",
-  "description": "react-native-umeng",
+  "description": "react-native-umeng-api",
   "main": "index.js",
   "scripts": {},
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:Timson020/react-native-umeng.git"
+    "url": "git@github.com:Timson020/react-native-umeng-api.git"
   },
   "keywords": [
     "react",
     "react-native",
     "share",
     "login",
-    "react-native-umeng"
+    "react-native-umeng",
+    "react-native-umeng-api",
+    "react-native-umeng-sdk",
+    "react-native-share",
+    "react-native-login"
   ],
   "author": "Timson",
   "license": "ISC"
