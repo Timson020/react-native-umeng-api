@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C9A9A491FCD9EAB009D5DCE /* RCTUmengModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A9A481FCD9EAB009D5DCE /* RCTUmengModule.m */; };
+		4C9A9A4A1FCD9EAB009D5DCE /* RCTUmengModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C9A9A471FCD9EAB009D5DCE /* RCTUmengModule.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C9A9A421FCD9EAB009D5DCE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4C9A9A4A1FCD9EAB009D5DCE /* RCTUmengModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C9A9A441FCD9EAB009D5DCE /* libRCTUmengModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTUmengModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9A9A471FCD9EAB009D5DCE /* RCTUmengModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTUmengModule.h; sourceTree = "<group>"; };
+		4C9A9A481FCD9EAB009D5DCE /* RCTUmengModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTUmengModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9A9A411FCD9EAB009D5DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9A9A3B1FCD9EAB009D5DCE = {
+			isa = PBXGroup;
+			children = (
+				4C9A9A461FCD9EAB009D5DCE /* RCTUmengModule */,
+				4C9A9A451FCD9EAB009D5DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9A9A451FCD9EAB009D5DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A9A441FCD9EAB009D5DCE /* libRCTUmengModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9A9A461FCD9EAB009D5DCE /* RCTUmengModule */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A9A471FCD9EAB009D5DCE /* RCTUmengModule.h */,
+				4C9A9A481FCD9EAB009D5DCE /* RCTUmengModule.m */,
+			);
+			path = RCTUmengModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9A9A431FCD9EAB009D5DCE /* RCTUmengModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9A9A4D1FCD9EAB009D5DCE /* Build configuration list for PBXNativeTarget "RCTUmengModule" */;
+			buildPhases = (
+				4C9A9A401FCD9EAB009D5DCE /* Sources */,
+				4C9A9A411FCD9EAB009D5DCE /* Frameworks */,
+				4C9A9A421FCD9EAB009D5DCE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTUmengModule;
+			productName = RCTUmengModule;
+			productReference = 4C9A9A441FCD9EAB009D5DCE /* libRCTUmengModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9A9A3C1FCD9EAB009D5DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Timson";
+				TargetAttributes = {
+					4C9A9A431FCD9EAB009D5DCE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 35U7LBHYVV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C9A9A3F1FCD9EAB009D5DCE /* Build configuration list for PBXProject "RCTUmengModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C9A9A3B1FCD9EAB009D5DCE;
+			productRefGroup = 4C9A9A451FCD9EAB009D5DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9A9A431FCD9EAB009D5DCE /* RCTUmengModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9A9A401FCD9EAB009D5DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9A9A491FCD9EAB009D5DCE /* RCTUmengModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C9A9A4B1FCD9EAB009D5DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C9A9A4C1FCD9EAB009D5DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C9A9A4E1FCD9EAB009D5DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 35U7LBHYVV;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C9A9A4F1FCD9EAB009D5DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 35U7LBHYVV;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9A9A3F1FCD9EAB009D5DCE /* Build configuration list for PBXProject "RCTUmengModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9A9A4B1FCD9EAB009D5DCE /* Debug */,
+				4C9A9A4C1FCD9EAB009D5DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9A9A4D1FCD9EAB009D5DCE /* Build configuration list for PBXNativeTarget "RCTUmengModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9A9A4E1FCD9EAB009D5DCE /* Debug */,
+				4C9A9A4F1FCD9EAB009D5DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9A9A3C1FCD9EAB009D5DCE /* Project object */;
+}

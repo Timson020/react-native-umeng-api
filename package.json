@@ -1,0 +1,21 @@
+{
+  "name": "react-native-umeng",
+  "version": "1.0.0",
+  "description": "react-native-umeng",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:Timson020/react-native-umeng.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "share",
+    "login",
+    "react-native-umeng"
+  ],
+  "author": "Timson",
+  "license": "ISC"
+}
