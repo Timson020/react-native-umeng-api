@@ -1,19 +1,19 @@
 [TOC]
 
-![npm](https://img.shields.io/npm/v/react-native-umeng.svg)
-![npm](https://img.shields.io/npm/dw/react-native-umeng.svg)
-![GitHub issues](https://img.shields.io/github/issues/Timson020/react-native-umeng.svg)
+![npm](https://img.shields.io/npm/v/react-native-umeng-api.svg)
+![npm](https://img.shields.io/npm/dw/react-native-umeng-api.svg)
+![GitHub issues](https://img.shields.io/github/issues/Timson020/react-native-umeng-api.svg)
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Timson020/react-native-umeng.git/pulls)
-![npm](https://img.shields.io/npm/l/react-native-umeng.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Timson020/react-native-umeng-api.git/pulls)
+![npm](https://img.shields.io/npm/l/react-native-umeng-api.svg)
 
 
-# react-native-umeng
+# react-native-umeng-api
 友盟的第三方登录 分享集成
 
 ## 安装
 
-```react-native link react-native-umeng```
+```react-native link react-native-umeng-api```
 
 除此以外还需要额外的配置
 
