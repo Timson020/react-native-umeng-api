@@ -8,8 +8,6 @@ import com.umeng.socialize.bean.SHARE_MEDIA;
 import com.umeng.socialize.media.UMImage;
 import com.umeng.socialize.media.UMWeb;
 
-import java.io.File;
-
 /**
  * <p>com.ram.react_native_umeng.utils
  * <p>Created by GaoXuanJi on 2017/11/28
@@ -36,15 +34,15 @@ public class ShareUtils {
                         .withText(shareRequest.getText());//分享内容
             case SHARE_NEWS:
                 UMWeb web = new UMWeb(shareRequest.getWebpageUrl());
+                UMImage thumb = new UMImage(mContext, shareRequest.getImageUrl());// 远程图片
                 web.setTitle(shareRequest.getTitle());//标题
-                web.setThumb(null);  //缩略图
+                web.setThumb(thumb);  //缩略图
                 web.setDescription(shareRequest.getDescription());//描述
                 return new ShareAction(mContext)
                         .setPlatform(platform)//传入平台
                         .withMedia(web);//分享内容
             case SHARE_IMAGE:
-                File file = new File(shareRequest.getImageUrl());
-                UMImage image = new UMImage(mContext, file);//本地文件
+                UMImage image = new UMImage(mContext, shareRequest.getImageUrl()); // 远程图片
                 return new ShareAction(mContext)
                         .setPlatform(platform)//传入平台
                         .withMedia(image);//分享内容
