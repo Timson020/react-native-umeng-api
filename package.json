@@ -1,6 +1,6 @@
 {
   "name": "react-native-umeng-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react-native-umeng-api",
   "main": "index.js",
   "scripts": {},
@@ -20,6 +20,6 @@
     "react-native-share",
     "react-native-login"
   ],
-  "author": "Timson",
+  "author": "Timson020",
   "license": "ISC"
 }
