@@ -2,14 +2,14 @@ language:
  node_js
 
 node_js: 
-	- "10.15.0"
+  - "10.15.0"
 
 before_install:
-	- echo 'Hellow'
+  - echo 'Hellow'
 
 install:
-	- echo 'Installing'
-	- npm install
+  - echo 'Installing'
+  - npm install
 
 script:
-	true
+  true
