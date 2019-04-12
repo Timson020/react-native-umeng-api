@@ -1,5 +1,4 @@
-[TOC]
-
+![Travis (.org)](https://img.shields.io/travis/Timson020/react-native-umeng-api.svg)
 ![npm](https://img.shields.io/npm/v/react-native-umeng-api.svg)
 ![npm](https://img.shields.io/npm/dw/react-native-umeng-api.svg)
 ![GitHub issues](https://img.shields.io/github/issues/Timson020/react-native-umeng-api.svg)
